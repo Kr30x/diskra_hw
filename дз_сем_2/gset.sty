@@ -1,0 +1,40 @@
+%% Set of cmd for Latex by Gleb Golubev
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[english, russian]{babel}
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage[left=2.50cm, right=2.00cm, top=2.00cm, bottom=2.00cm]{geometry}
+\usepackage{graphicx}
+\mathchardef\mathperiod=\mathcode`*
+\mathcode`*=\cdot
+
+
+%% Spacing
+\newcommand{\bspace}{\\\\\\}
+\newcommand{\sspace}{\\\\}
+
+
+%% Matrices  !!! use with $ ... $ structure
+\newcommand{\mattwo}[4]{\left ( \begin{array}{rr} {#1} & {#2}\\ {#3} & {#4} \end{array} \right )}
+\newcommand{\matthree}[9]{\left ( \begin{array}{rrr} {#1} & {#2} & {#3} \\ {#4} & {#5} & {#6} \\ {#7} & {#8} & {#9}  \end{array} \right )}
+\newcommand{\zeromat}{\left ( \begin{array}{rr} 0 & 0\\ 0 & 0 \end{array} \right )}
+\newcommand{\onemat}{\left ( \begin{array}{rr} 1 & 0\\ 0 & 1 \end{array} \right )}
+
+
+%% Text editing
+\newcommand{\B}[1]{\textbf{#1}}
+\newcommand{\answer}{\B{Ответ: }}
+\newcommand{\maintitle}[1]{\begin{center} \B{\underline{#1}}\end{center}}
+\newcommand{\auth}[1]{\begin{center} \B{#1}\end{center}}
+
+%%
+%%\begin{document}
+%%	\auth{Gleb Golubev}
+%%	\maintitle{Set of commands for Latex and examples of their usage}
+%%	$
+%%	\mattwo{\alpha}{\beta}{\gamma}{\theta} = 
+%%	\zeromat * \onemat ^ 2 \bspace
+%%	\matthree{1}{2}{3}{4}{5}{6}{7}{8}{9} \bspace
+%%	$
+%%	\answer 123 \sspace
+%%\end{document}

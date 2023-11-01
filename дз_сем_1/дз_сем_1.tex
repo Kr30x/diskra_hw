@@ -1,0 +1,91 @@
+\documentclass[11pt]{article}
+\usepackage{preamble}
+\def\week{1}
+\def\theproblem{К\week.\arabic{problem}}
+\begin{document}
+	%%\pagestyle{fancy}
+	\setcounter{problem}{0}
+	\def\theproblem{Д\week.\arabic{problem}}
+	{\textbf{\large Дискретная математика}\hfill \textbf{(Основной поток)}
+		
+		\medskip %
+		
+		\textbf{Домашнее задание \week}}
+	
+	\medskip
+	
+	\textbf{Дайте обоснованные ответы на следующие вопросы.}
+	
+	
+	\vspace{5mm}
+	
+	
+	\p Докажите частичным разбором случаев тавтологичность следующих
+	составных высказываний
+	
+	\sp $(A\lif B)\lor (B\lif C)$;\\
+	Пусть $B = 0$, тогда $ (A\lif B) = 1$, тогда $(A\lif B)\lor (B\lif C) = 1$\\
+	Пусть $B = 1$, тогда $ (B\lif C) = 1$, тогда $(A\lif B)\lor (B\lif C) = 1$\\
+	Исходное высказывание является тавтологией. \\
+	
+	\sp $A\lif B\equiv A\lif (A\land B)$;\\
+	$A\lif (A\land B) = (A \lif A) \land (A \lif B)$\\
+	$(A \lif A) \land (A \lif B) = A \lif B$\\
+	$A \lif B = A \lif B$\\
+	Исходное высказывание является тавтологией. \\
+	
+	\sp  $A\lif (B\lif C)\equiv(A\lif B)\lif C$;\\
+	Пусть $A = 0, B = 0, C = 0$, тогда $A\lif (B\lif C) = 1$, а $(A\lif B)\lif C = 0$\\
+	Исходное высказывание не является тавтологией.\\
+	
+	\sp $A\land (B\lif C)\equiv(A\land B)\lif (A\land C)$.\\
+	Пусть $A = 0, B = 0, C = 0$, тогда $A\land (B\lif C) = 0$, а $(A\land B)\lif (A\land C) = 1$\\
+	Исходное высказывание не является тавтологией.\\
+	
+	\p Рассмотрим целые числа $x$, $y$, $z$, $t$, $w$ и два высказывания:
+	$A=$<<$x+y+z+t+w$ чётное>>,  $B=$<<$xyztw$ чётное>>. Докажите, что $A\lif B$ истинно. \\
+	Докажем методом от обратного. Пусть $A\lif B$ ложно. Тогда A истинно, а B ложно.\\
+	Если B ложно, тогда все числа  $x$, $y$, $z$, $t$, $w$ нечетные. Но тогда сумма  $x$, $y$, $z$, $t$, $w$ нечетна. \\
+	Противоречие\\
+	Вывод:  $A\lif B$ истинно\\
+	
+	
+	\p Верно ли, что для любых множеств $A$, $B$ и $C$
+    
+	\sp выполняется равенство
+	$\big((A\cup B)\sm (A\cap B)\big)\sm (A\sm B)  = B\sm A$?
+	
+	$(A\cup B)\sm (A\cap B) = (x \in A \lor x \in B) \land (x \notin (A \cap B))$\\
+	$\big((A\cup B)\sm (A\cap B)\big)\sm (A\sm B) = (x \in A \lor x \in B) \land (x \notin (A \cap B)) \land (x \in B) \land (x \notin A) = $ \\
+	$= (x \in B) \land (x \notin (A \cap B)) = x \in (B \sm A)$
+	\\
+	Обратное доказательство делается аналогично\\
+	
+	
+	\sp выполняется равенство $(A\cap B)\sm C = (A\sm C)\cap (B\sm C)$?\\
+	$(A\sm C)\cap (B\sm C) = (x \in A \land x \notin C) \land (x \in B \land x \notin C) = x \in A \land x \in B \land x \notin C = x \in ((A \cup B) \sm C)$\\
+	Обратное доказательство делается аналогично\\
+	
+	
+	\sp  выполняется включение $(A\cup B)\sm (A\sm B)\subseteq B$\,?\\
+	$(A\cup B)\sm (A\sm B) = (x \in A \lor x \in B) \land x \in B \land x \notin A = x \in (B \sm A)$\\
+	Так как $(B \sm A) \subseteq B$, то изначальное высказывание истинно \\
+	
+	\sp выполняется равенство
+	$\big((A\sm B)\cup (A\sm C)\big) \cap \big(A\sm (B\cap C)\big)  =
+	A \sm (B\cup C)$\,?\\
+	$\big((A\sm B)\cup (A\sm C)\big) = (x \in A \land x \notin B) \lor (x \in A \land x \notin C) = x \in A \land x\notin B \land x \notin C = x \in A \land x \notin (B \cup C) = $\\
+	$ = x \in (A \sm (B \cup C))$\\
+	Обратное доказательство делается аналогично\\
+	
+	
+	
+	\p Про множества $A$, $B$, $C$ известно, что $A\cap B\subseteq C\sm (A\cup B)$. Верно ли, что тогда
+	$A\subseteq A \sym B$, где $\sym$ обозначает симметрическую разность множеств? \\
+	$C \sm (A\cup B) = x \in C \land x \notin (A \cup B) = x \in C \land x \notin A \land x \notin B$\\
+	$x \in A \land x \in B \lif x \in C \land x \notin A \land x \notin B$\\
+	Условие выполняется, только когда $A \cap B = \varnothing$, то есть у множеств A и B нет общих элементов.\\
+	Тогда $A \sym B = A \cup B$, тогда $A\subseteq A \sym B$ - верно
+	
+	
+\end{document} 
