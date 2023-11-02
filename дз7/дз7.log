@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.6)  1 NOV 2023 18:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.6)  2 NOV 2023 13:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -554,6 +554,57 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
+
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<img1.png, id=1, 981.6675pt x 643.40375pt>
+File: img1.png Graphic file (type png)
+<use img1.png>
+Package pdftex.def Info: img1.png  used on input line 30.
+(pdftex.def)             Requested size: 426.79134pt x 279.72128pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
+
+ []
+
+
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
@@ -564,23 +615,62 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}]
-(./дз7.aux) ) 
+al/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc} <./img1.p
+ng>]
+Underfull \hbox (badness 10000) in paragraph at lines 50--52
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (0.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.59999pt}.
+
+[2] (./дз7.aux) ) 
 Here is how much of TeX's memory you used:
- 5968 strings out of 476025
- 87613 string characters out of 5790018
- 1850388 words of memory out of 5000000
- 26352 multiletter control sequences out of 15000+600000
- 515924 words of font info for 37 fonts, out of 8000000 for 9000
+ 6037 strings out of 476025
+ 88601 string characters out of 5790018
+ 1862388 words of memory out of 5000000
+ 26399 multiletter control sequences out of 15000+600000
+ 522796 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,11n,76p,244b,306s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/
-sfrm1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sf
-sl0900.pfb>
-Output written on дз7.pdf (1 page, 31117 bytes).
+ 72i,11n,76p,2158b,307s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/
+msam10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrb
+1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrb12
+00.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095
+.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsl0900.p
+fb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb
+>
+Output written on дз7.pdf (2 pages, 232454 bytes).
 PDF statistics:
- 19 PDF objects out of 1000 (max. 8388607)
- 11 compressed objects within 1 object stream
+ 80 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
