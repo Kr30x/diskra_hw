@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.6)  15 NOV 2023 22:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.6)  20 NOV 2023 14:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**дз9.tex
-(./дз9.tex
+**дз10.tex
+(./дз10.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22>
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
@@ -476,8 +476,8 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count278
 \l__pdf_internal_box=\box54
 )
-(./дз9.aux)
-\openout1 = `дз9.aux'.
+(./дз10.aux)
+\openout1 = `дз10.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
@@ -553,17 +553,32 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
 
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+<img.png, id=1, 526.96875pt x 482.80376pt>
+File: img.png Graphic file (type png)
+<use img.png>
+Package pdftex.def Info: img.png  used on input line 29.
+(pdftex.def)             Requested size: 426.79134pt x 391.03944pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -575,31 +590,49 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}]
-(./дз9.aux) ) 
+al/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc} <./img.pn
+g>]
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (0.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.59999pt}.
+
+[2] (./дз10.aux) ) 
 Here is how much of TeX's memory you used:
- 6022 strings out of 476025
- 88406 string characters out of 5790018
- 1859388 words of memory out of 5000000
- 26386 multiletter control sequences out of 15000+600000
+ 6036 strings out of 476025
+ 88578 string characters out of 5790018
+ 1858388 words of memory out of 5000000
+ 26399 multiletter control sequences out of 15000+600000
  521919 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,11n,76p,1111b,308s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msb
-m10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrb109
-5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrb1200.
-pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pf
-b></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsl0900.pfb>
-Output written on дз9.pdf (1 page, 138026 bytes).
+ 72i,12n,76p,2082b,307s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symb
+ols/msbm10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/
+sfrb1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sf
+rb1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm
+1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsl09
+00.pfb>
+Output written on дз10.pdf (2 pages, 184645 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
+ 65 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
