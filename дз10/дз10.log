@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.6)  20 NOV 2023 14:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.6)  22 NOV 2023 21:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -611,10 +611,10 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 [2] (./дз10.aux) ) 
 Here is how much of TeX's memory you used:
- 6036 strings out of 476025
- 88578 string characters out of 5790018
- 1858388 words of memory out of 5000000
- 26399 multiletter control sequences out of 15000+600000
+ 6040 strings out of 476025
+ 88640 string characters out of 5790018
+ 1861388 words of memory out of 5000000
+ 26403 multiletter control sequences out of 15000+600000
  521919 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,12n,76p,2082b,307s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -629,7 +629,7 @@ sfrb1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sf
 rb1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm
 1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsl09
 00.pfb>
-Output written on дз10.pdf (2 pages, 184645 bytes).
+Output written on дз10.pdf (2 pages, 187139 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
